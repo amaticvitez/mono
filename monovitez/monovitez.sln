@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez", "monovitez\monovitez.csproj", "{6E2DA725-3FC5-4133-81F8-60B74E40BF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez.DAL", "monovitez.DAL\monovitez.DAL.csproj", "{5B239663-C5BD-42E9-87A4-ED63F3473457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B239663-C5BD-42E9-87A4-ED63F3473457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B239663-C5BD-42E9-87A4-ED63F3473457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B239663-C5BD-42E9-87A4-ED63F3473457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B239663-C5BD-42E9-87A4-ED63F3473457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
