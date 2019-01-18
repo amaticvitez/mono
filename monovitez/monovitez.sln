@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez", "monovitez\monovitez.csproj", "{6E2DA725-3FC5-4133-81F8-60B74E40BF16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez.Common", "monovitez.Common\monovitez.Common.csproj", "{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monovitez.Common", "monovitez.Common\monovitez.Common.csproj", "{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
