@@ -6,5 +6,6 @@ namespace monovitez.Common
 {
     class Class52
     {
+        int i = 0;
     }
 }
