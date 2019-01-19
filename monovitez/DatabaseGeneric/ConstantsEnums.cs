@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////
 using System;
 
-namespace monovitezEnt
+namespace monovitez.DAL
 {
 
 
@@ -24,7 +24,6 @@ namespace monovitezEnt
 
 	// __LLBLGENPRO_USER_CODE_REGION_START CustomUserConstants
 	// __LLBLGENPRO_USER_CODE_REGION_END
-
 
 }
 

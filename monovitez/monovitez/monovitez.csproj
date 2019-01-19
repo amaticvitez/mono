@@ -221,6 +221,14 @@
       <Project>{d51c22e4-2180-4447-8b17-56a99c335c7e}</Project>
       <Name>monovitezEntDBSpecific</Name>
     </ProjectReference>
+    <ProjectReference Include="..\monovitez.DAL\DatabaseGeneric\monovitez.DAL.csproj">
+      <Project>{47bb25c5-393c-400b-b9e0-bbeaa464951b}</Project>
+      <Name>monovitez.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\monovitez.DAL\DatabaseSpecific\monovitez.DALDBSpecific.csproj">
+      <Project>{d030382a-d557-4654-ad84-1e2488feff01}</Project>
+      <Name>monovitez.DALDBSpecific</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

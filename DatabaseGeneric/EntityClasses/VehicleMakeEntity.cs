@@ -20,16 +20,18 @@ namespace monovitez.DAL.EntityClasses
 {
 	// __LLBLGENPRO_USER_CODE_REGION_START AdditionalNamespaces
 	// __LLBLGENPRO_USER_CODE_REGION_END
+
 	/// <summary>Entity class which represents the entity 'VehicleMake'.<br/><br/></summary>
 	[Serializable]
 	public partial class VehicleMakeEntity : CommonEntityBase
 		// __LLBLGENPRO_USER_CODE_REGION_START AdditionalInterfaces
-		// __LLBLGENPRO_USER_CODE_REGION_END	
+		// __LLBLGENPRO_USER_CODE_REGION_END
+	
 	{
 		private EntityCollection<VehicleModelEntity> _vehicleModels;
-
 		// __LLBLGENPRO_USER_CODE_REGION_START PrivateMembers
 		// __LLBLGENPRO_USER_CODE_REGION_END
+
 		private static VehicleMakeEntityStaticMetaData _staticMetaData = new VehicleMakeEntityStaticMetaData();
 		private static VehicleMakeRelations _relationsFactory = new VehicleMakeRelations();
 
@@ -112,6 +114,7 @@ namespace monovitez.DAL.EntityClasses
 			PerformDependencyInjection();
 			// __LLBLGENPRO_USER_CODE_REGION_START InitClassMembers
 			// __LLBLGENPRO_USER_CODE_REGION_END
+
 			OnInitClassMembersComplete();
 		}
 
@@ -126,6 +129,7 @@ namespace monovitez.DAL.EntityClasses
 			InitClassMembers();
 			// __LLBLGENPRO_USER_CODE_REGION_START InitClassEmpty
 			// __LLBLGENPRO_USER_CODE_REGION_END
+
 
 			OnInitialized();
 		}
@@ -163,9 +167,9 @@ namespace monovitez.DAL.EntityClasses
 		/// <summary>Gets the EntityCollection with the related entities of type 'VehicleModelEntity' which are related to this entity via a relation of type '1:n'. If the EntityCollection hasn't been fetched yet, the collection returned will be empty.<br/><br/></summary>
 		[TypeContainedAttribute(typeof(VehicleModelEntity))]
 		public virtual EntityCollection<VehicleModelEntity> VehicleModels { get { return GetOrCreateEntityCollection<VehicleModelEntity, VehicleModelEntityFactory>("VehicleMake", true, false, ref _vehicleModels); } }
-
 		// __LLBLGENPRO_USER_CODE_REGION_START CustomEntityCode
 		// __LLBLGENPRO_USER_CODE_REGION_END
+
 	}
 }
 

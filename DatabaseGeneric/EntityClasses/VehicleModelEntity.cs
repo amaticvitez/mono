@@ -20,16 +20,18 @@ namespace monovitez.DAL.EntityClasses
 {
 	// __LLBLGENPRO_USER_CODE_REGION_START AdditionalNamespaces
 	// __LLBLGENPRO_USER_CODE_REGION_END
+
 	/// <summary>Entity class which represents the entity 'VehicleModel'.<br/><br/></summary>
 	[Serializable]
 	public partial class VehicleModelEntity : CommonEntityBase
 		// __LLBLGENPRO_USER_CODE_REGION_START AdditionalInterfaces
-		// __LLBLGENPRO_USER_CODE_REGION_END	
+		// __LLBLGENPRO_USER_CODE_REGION_END
+	
 	{
 		private VehicleMakeEntity _vehicleMake;
-
 		// __LLBLGENPRO_USER_CODE_REGION_START PrivateMembers
 		// __LLBLGENPRO_USER_CODE_REGION_END
+
 		private static VehicleModelEntityStaticMetaData _staticMetaData = new VehicleModelEntityStaticMetaData();
 		private static VehicleModelRelations _relationsFactory = new VehicleModelRelations();
 
@@ -112,6 +114,7 @@ namespace monovitez.DAL.EntityClasses
 			PerformDependencyInjection();
 			// __LLBLGENPRO_USER_CODE_REGION_START InitClassMembers
 			// __LLBLGENPRO_USER_CODE_REGION_END
+
 			OnInitClassMembersComplete();
 		}
 
@@ -126,6 +129,7 @@ namespace monovitez.DAL.EntityClasses
 			InitClassMembers();
 			// __LLBLGENPRO_USER_CODE_REGION_START InitClassEmpty
 			// __LLBLGENPRO_USER_CODE_REGION_END
+
 
 			OnInitialized();
 		}
@@ -175,9 +179,9 @@ namespace monovitez.DAL.EntityClasses
 			get { return _vehicleMake; }
 			set { SetSingleRelatedEntityNavigator(value, "VehicleMake"); }
 		}
-
 		// __LLBLGENPRO_USER_CODE_REGION_START CustomEntityCode
 		// __LLBLGENPRO_USER_CODE_REGION_END
+
 	}
 }
 
