@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez", "monovitez\monovitez.csproj", "{6E2DA725-3FC5-4133-81F8-60B74E40BF16}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monovitez.Common", "monovitez.Common\monovitez.Common.csproj", "{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monovitez.Model.Common", "monovitez.Model.Common\monovitez.Model.Common.csproj", "{5A365970-8BF6-43E6-984A-AF194A778B7E}"
@@ -31,16 +29,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitezEnt", "DatabaseGen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitezEntDBSpecific", "DatabaseSpecific\monovitezEntDBSpecific.csproj", "{D51C22E4-2180-4447-8B17-56A99C335C7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitez", "monovitez\monovitez.csproj", "{051A6EF0-2D25-49EB-AFE2-108BB6088983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E2DA725-3FC5-4133-81F8-60B74E40BF16}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CEEBD5-491F-41C7-A5BE-0B14A083EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,6 +89,10 @@ Global
 		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051A6EF0-2D25-49EB-AFE2-108BB6088983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051A6EF0-2D25-49EB-AFE2-108BB6088983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051A6EF0-2D25-49EB-AFE2-108BB6088983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051A6EF0-2D25-49EB-AFE2-108BB6088983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
