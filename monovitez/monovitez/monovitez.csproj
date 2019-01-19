@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.5.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -80,6 +81,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\!!MonoVitez\lbl\DatabaseGeneric\monovitezEnt.csproj">
+      <Project>{2eb5b494-0d11-4642-9d43-74c4c44536c0}</Project>
+      <Name>monovitezEnt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\!!MonoVitez\lbl\DatabaseSpecific\monovitezEntDBSpecific.csproj">
+      <Project>{d51c22e4-2180-4447-8b17-56a99c335c7e}</Project>
+      <Name>monovitezEntDBSpecific</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
