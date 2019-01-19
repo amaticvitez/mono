@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monovitez.DAL", "monovitez.DAL\monovitez.DAL.csproj", "{DFD699D0-14C5-4558-840A-42A113C753FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitezEnt", "DatabaseGeneric\monovitezEnt.csproj", "{2EB5B494-0D11-4642-9D43-74C4C44536C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monovitezEntDBSpecific", "DatabaseSpecific\monovitezEntDBSpecific.csproj", "{D51C22E4-2180-4447-8B17-56A99C335C7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{DFD699D0-14C5-4558-840A-42A113C753FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD699D0-14C5-4558-840A-42A113C753FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD699D0-14C5-4558-840A-42A113C753FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB5B494-0D11-4642-9D43-74C4C44536C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB5B494-0D11-4642-9D43-74C4C44536C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB5B494-0D11-4642-9D43-74C4C44536C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB5B494-0D11-4642-9D43-74C4C44536C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51C22E4-2180-4447-8B17-56A99C335C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
