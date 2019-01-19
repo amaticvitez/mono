@@ -82,16 +82,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\!!MonoVitez\lbl\DatabaseGeneric\monovitezEnt.csproj">
-      <Project>{2eb5b494-0d11-4642-9d43-74c4c44536c0}</Project>
-      <Name>monovitezEnt</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\..\..\!!MonoVitez\lbl\DatabaseSpecific\monovitezEntDBSpecific.csproj">
-      <Project>{d51c22e4-2180-4447-8b17-56a99c335c7e}</Project>
-      <Name>monovitezEntDBSpecific</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
